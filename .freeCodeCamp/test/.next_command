@@ -55,3 +55,4 @@ ls --color=auto -l ./queries.sh
 chmod +x ./queries.sh
 ls --color=auto -l ./queries.sh
 chmod +x ./insert_data.sh
+pg_dump -cC --inserts -U freecodecamp worldcup > worldcup.sql

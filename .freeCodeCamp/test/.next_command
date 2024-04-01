@@ -56,3 +56,41 @@ chmod +x ./queries.sh
 ls --color=auto -l ./queries.sh
 chmod +x ./insert_data.sh
 pg_dump -cC --inserts -U freecodecamp worldcup > worldcup.sql
+./insert_data.sh
+./insert_data.sh
+./insert_data.sh
+./insert_data.sh
+./insert_data.sh
+./insert_data.sh
+?#
+__vsc_prompt_cmd_original
+echo
+$WINNER
+./insert_data.sh
+./insert_data.sh
+./insert_data.sh
+./insert_data.sh
+./insert_data.sh
+./insert_data.sh
+./insert_data.sh
+./insert_data.sh
+./insert_data.sh
+./insert_data.sh
+./insert_data.sh
+./insert_data.sh
+./insert_data.sh
+./insert_data.sh
+pg_dump -cC --inserts -U freecodecamp worldcup > worldcup.sql
+echo
+echo
+\q
+\q
+echo $?
+\d
+echo $?
+SELECT expected_output.txt games.csv insert_data.sh queries.sh worldcup.sql FROM teams
+\c worldcup
+\c worldcup
+psql --username=freecodecamp --dbname=postgres
+echo $?
+./insert_data.sh

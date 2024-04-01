@@ -59,9 +59,10 @@ do
       
     # insert game information from csv
     INSERT_GAME_INFO=$($PSQL "INSERT INTO games(year, round, winner_id, opponent_id, winner_goals, opponent_goals) VALUES('$YEAR', '$ROUND', '$WINNER_IDD', '$OPPONENT_IDD', '$WINNER_GOALS', '$OPPONENT_GOALS')")
-      #if [[ $INSERT_GAME_INFO = 'INSERT 0 1' ]]
+      if [[ $INSERT_GAME_INFO == 'INSERT 0 1' ]]
+      then
         echo -e "\nAdded the $YEAR game between '$WINNER_IDD' and '$OPPONENT_IDD':"
-      #fi
+      fi
     
   fi
  

@@ -174,3 +174,15 @@ declare -p
 ./insert_data.sh
 ./insert_data.sh
 pg_dump -cC --inserts -U freecodecamp worldcup > worldcup.sql
+pg_dump -cC --inserts -U freecodecamp worldcup > worldcup.sql
+./insert_data.sh
+./insert_data.sh
+./insert_data.sh
+./insert_data.sh
+./insert_data.sh
+./insert_data.sh
+./insert_data.sh
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+psql --username=freecodecamp --dbname=postgres

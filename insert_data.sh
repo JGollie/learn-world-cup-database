@@ -46,7 +46,6 @@ do
 done
 
 # get game information from CSV
-echo $($PSQL "TRUNCATE year, round, winner_goals, opponent_goals")
 cat games.csv | while IFS="," read YEAR ROUND WINNER OPPONENT WINNER_GOALS OPPONENT_GOALS
 
 do

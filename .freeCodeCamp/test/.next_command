@@ -170,3 +170,5 @@ declare -p
 ./insert_data.sh
 ./insert_data.sh
 ./insert_data.sh
+./insert_data.sh
+./insert_data.sh
